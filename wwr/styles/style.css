@@ -225,6 +225,40 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Start Here Rivers Page */
+
+.rivers-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 0 50px;
+  }
+
+  .rivers-section {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rivers-img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .rivers-h1 {
+    text-align: center;
+    margin-top: 20px; /* Espaciado superior para separar el título del contenido */
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
