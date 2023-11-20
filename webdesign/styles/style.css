@@ -231,6 +231,17 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #EDF4FF;
+}
+
+.column1 {
+    flex: 0 1 30%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 img {
